@@ -17,3 +17,5 @@ const CollectionItem = ({item}) => {
         </>
     )
 }
+
+export default CollectionItem
