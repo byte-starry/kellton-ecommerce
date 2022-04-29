@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import './MenuItem.style.scss'
 // Menu with title, image URL is being carried
 const MenuItem = ({menu}) => {
+    let navigate = useNavigate()
     return (
         <>
         <div className='menu-item'>
